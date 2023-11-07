@@ -11,7 +11,7 @@ python wiki_stats.py --help <br />
 For example, on Windows we can run the script via: <br />
 python wiki_stats.py Python_(programming language) --pause '1ms' --lang en links_file.txt nearest_file.txt <br />
 --pause argument can be entered either as a number ('1', '1ms', '1s'), or as an interval('1-2'), or as a random variable from Gauss distribution ('gauss:5/2'). <br />
-The script, firstly, parses --pause argument and set the pause duration. <br />
+The script, firstly, parses --pause argument and sets the pause duration. <br />
 After that, it tries to make a test request to the entered page and checks whether the request is successful or not. <br />
 Next, it checks whether the entered page is a disambiguation page or not. If so, it suggest to choose informational pages from the corresponding disambiguation page. <br />
 If the page is not a disambiguation page, the script collects all external links from the page and write them into the links_file. <br />
