@@ -1,6 +1,6 @@
 # HSE_Python
 Homework assignments on python in HSE <br />
-wiki-stats.py (please read the notes inside the script itself carefully): <br />
+# wiki-stats.py (please read the notes inside the script itself carefully): <br />
 This script is a console application, i.e., you have to run it from the command line via python wiki_stats.py with one positional argument corresponding to the wiki page name and 4 optinal arguments: <br />
 --pause (pause between requests to wiki) <br />
 --lang (wiki page language) <br />
